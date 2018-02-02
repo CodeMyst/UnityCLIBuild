@@ -1,0 +1,6 @@
+F:\Work\Game\endless-nameless\EndlessNameless.Unity\Builds\
+F:\Work\Game\endless-nameless\EndlessNameless.Unity\Temp\
+F:\Work\Game\endless-nameless\EndlessNameless.Unity\.vs\
+F:\Work\Game\endless-nameless\EndlessNameless.Unity\.vscode\
+F:\Work\Game\endless-nameless\EndlessNameless.Unity\etc\
+F:\Work\Game\endless-nameless\EndlessNameless.Unity\obj\
