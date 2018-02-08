@@ -14,6 +14,19 @@ if "%1"=="macos" (
     set os=macOS
 )
 
+if "%2"=="-l" (
+    if not exist "%buildsPath%\%os%" (
+        echo No builds for "%os%"
+        exit /B 0
+    )
+
+    for /F "delims=" %%i IN ('dir "%buildsPath%\%os%\" /b /ad-h /t:c /od') DO SET a=%%i
+    
+    echo Most recent "%os%" build version is %a%
+
+    exit /B 0
+)
+
 set buildPath=%buildsPath%\%os%\[%2] Endless Nameless
 
 if exist "%buildPath%" (
