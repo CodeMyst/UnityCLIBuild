@@ -15,6 +15,11 @@ build os version
 Where os can be: windows, linux, macos
 And version can be any string to indicate the version of the build. You cannot build a version if the version already exist for the specified OS. If you want to rebuild a version you have to delete the folder for that version build.
 
+To check the latest version number you can do:
+```bat
+build os -l
+```
+
 ## TODO:
 
 * More user friendly way of setting the paths
